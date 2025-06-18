@@ -11,26 +11,26 @@ footer {
 }
 
 main {
-  height: calc(100vh -100px);
+  height: calc(100vh - 100px);
   background-color: darksalmon;
+  display: flex;
 }
 
 header {
   background-color: hotpink;
-  width: calc(100vw - 300px);
+  width: calc(100vw - 200px);
   height: 30px;
 }
 
 #sidebar {
-  width: 300px;
+  width: 200px;
   background-color: cornflowerblue;
   height: 100%;
-  border: 1px solid black;
 }
 
 #content {
   height: 100%;
-  width: calc(100vw - 300px);
+  width: calc(100vw - 200px);
   background-color: darkkhaki;
   overflow-y: auto;
   color: black;
