@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-  height: 100px;
+  height: auto;
   background-color: #282828;
   color: white;
 }
@@ -94,6 +94,7 @@ h2 {
 .nav-playlist ul li img {
   width: 10%;
 }
+
 
 .download img {
   width: 10%;
@@ -241,3 +242,7 @@ h2 {
   width: 10%;
   vertical-align: middle;
 }
+
+
+
+/* audio player */
