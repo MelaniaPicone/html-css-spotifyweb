@@ -137,6 +137,20 @@ vertical-align: middle;
 /* topbar */
 
 .topbar {
-background-color:#131111
+width: 100%;
+background-color:#131111;
+height: 60px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding-right: 50px;
+}
+
+.topbar .upgrade {
+text-transform: uppercase;
+font-size: 10px; 
+border: 1px solid white;
+padding: 10px 50px;
+border-radius: 50px;
 
 }
