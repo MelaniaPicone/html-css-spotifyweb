@@ -176,7 +176,7 @@ h2 {
 
 .container {
   max-width: 100%;
-  margin: 15px
+  padding: 10px;
 }
 
 .row {
@@ -232,11 +232,12 @@ h2 {
   padding-top: 20px;
 }
 
-.col-33 .music {;
+.col-33 .music {
   display: inline;
   vertical-align: middle;
 }
 
 .col-33 img {
   width: 10%;
+  vertical-align: middle;
 }
