@@ -24,12 +24,7 @@ ul li {
   list-style-type: none;
 }
 
-.topbar {
-  background-color: #080B12;
-  width: calc(100vw - 200px);
-  height: 30px;
-  color: white;
-}
+
 
 #content {
   height: 100%;
@@ -57,7 +52,13 @@ h2 {
   margin-top: 15px;
 }
 
-.nav-playlist ul li {
+.nav-top {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.nav-playlist {
   line-height: 30px;
   font-size: 11px;
   font-weight: bold;
@@ -68,7 +69,12 @@ h2 {
 }
 
 .nav-playlist {
-  margin-bottom: 130px;
+  margin-bottom: 60px;
+}
+
+.add {
+  vertical-align: middle;
+  font-size: 30px;
 }
 
 .logo-large {
@@ -95,4 +101,42 @@ h2 {
 
 .account img {
   width: 10%;
+}
+
+.download img {
+  vertical-align: middle;
+}
+
+.sidebar-down {
+  line-height: 40px;
+}
+
+.download {
+  display: inline;
+  font-size: 12px;
+  padding-right: 70px;
+  border-bottom: 1px solid #a3a3a3;
+  padding-bottom: 10px;
+}
+
+.account img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+vertical-align: middle;
+}
+
+.account b {
+  color: white;
+  font-size: 13px;
+  padding: 5px
+}
+
+
+/* topbar */
+
+.topbar {
+background-color:#131111
+
 }
