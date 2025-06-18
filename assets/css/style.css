@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+footer {
+  height: 100px;
+  background-color: aquamarine;
+}
+
+main {
+  height: calc(100vh -100px);
+  background-color: darksalmon;
+}
+
+header {
+  background-color: hotpink;
+  width: calc(100vw - 300px);
+  height: 30px;
+}
+
+#sidebar {
+  width: 300px;
+  background-color: cornflowerblue;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#content {
+  height: 100%;
+  width: calc(100vw - 300px);
+  background-color: darkkhaki;
+  overflow-y: auto;
+  color: black;
+}
