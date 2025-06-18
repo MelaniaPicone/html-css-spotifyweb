@@ -124,7 +124,7 @@ h2 {
   height: 30px;
   border-radius: 50%;
   background-color: grey;
-vertical-align: middle;
+  vertical-align: middle;
 }
 
 .account b {
@@ -134,23 +134,39 @@ vertical-align: middle;
 }
 
 
-/* topbar */
+/* content topbar */
 
 .topbar {
-width: 100%;
-background-color:#131111;
-height: 60px;
-display: flex;
-justify-content: flex-end;
-align-items: center;
-padding-right: 50px;
+  width: 100%;
+  background-color: #131111;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
 }
 
 .topbar .upgrade {
-text-transform: uppercase;
-font-size: 10px; 
-border: 1px solid white;
-padding: 10px 50px;
-border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 10px;
+  border: 1px solid white;
+  padding: 10px 50px;
+  border-radius: 50px;
+}
 
+
+/* content stripe playlist */
+
+.nav-mood {
+  width: 100%;
+  display: flex;
+justify-content: center;  margin-top: 20px;
+}
+
+.stripe-playlist ul li {
+   display: inline-block;
+  text-transform: uppercase;
+font-size: 10px;
+padding: 0 10px;
+color: #a3a3a3;
 }
