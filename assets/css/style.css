@@ -226,32 +226,33 @@ h2 {
 footer {
   width: 100%;
   height: 100px;
-  padding: 20px;
   background-color: #282828;
   color: white;
   display: flex;
-justify-content: center;}
+  margin: 0 auto;
+}
 
 
 footer .container {
-  width: 100%;
-  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .col-25 {
-  width: 25%;
+  width: 20%;
   line-height: 12px;
 }
 
-
-
 .col-50 {
-  width: 48%;
+  width: 49%;
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
 
 
 .col-25 img {
-  width: 10%;
+  width: 15%;
   float: left;
   margin-right: 10px;
 }
@@ -260,13 +261,34 @@ footer .container {
   font-size: 10px;
 }
 
-.col-25 .onplay, span {
-margin-top: 5px;
+.col-25 h5,
+span {
+  margin-top: 5px;
 }
 
-.col-25 .onlplay,
-span {}
+.col-25 .icons {
+  margin-left: 50px;
+}
 
+.col-50 .player-icons {
+  width: 30%;
+}
+
+.player-icons {
+  position: absolute;
+  top: 35px;
+}
+
+
+i {
+  letter-spacing: 20px;
+}
+
+
+.col-25b {
+  display: flex;
+  margin-left: 160px;
+}
 
 /* audio player */
 
@@ -281,7 +303,7 @@ span {}
 .player-bar {
   width: 70%;
   background-color: grey;
-  height: 5px;
+  height: 3px;
   border-radius: 5px;
   margin: 0px 10px;
   position: relative;
@@ -300,7 +322,7 @@ span {}
 .controller-point {
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 60px;
   display: block;
   width: 15px;
   height: 15px;
@@ -315,4 +337,27 @@ span {}
 
 .player-controller-time:hover .controller-point {
   display: block;
+}
+
+
+/* volume player */
+
+.volume-player {
+  position: relative;
+  display: inline-block;
+  background-color: grey;
+  width: 100px;
+  height: 3px;
+  border-radius: 50px;
+}
+
+.time-bar {
+  position: absolute;
+  width: 40%;
+  background-color: silver;
+  height: 3px;
+}
+
+.time-bar:hover {
+  background-color: green;
 }
