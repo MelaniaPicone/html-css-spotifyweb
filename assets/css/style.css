@@ -40,6 +40,7 @@ ul li {
   height: 100%;
   color: #a3a3a3;
   padding: 10px 20px;
+  position: relative;
 }
 
 h2 {
@@ -82,6 +83,13 @@ h2 {
   width: 50%;
   display: none;
 }
+
+.homebord {
+  border-left: 2px solid limegreen;
+height: 30px;
+position: absolute;
+left: 0;
+top: 30;}
 
 .nav-top ul li img {
   width: 10%;
@@ -159,6 +167,16 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: limegreen;
+  margin-top: 5px;
+  margin-left: 17px;
 }
 
 .stripe-playlist ul li {
@@ -362,3 +380,21 @@ i {
 .time-bar:hover {
   background-color: green;
 }
+
+
+
+/* hover */
+
+
+.upgrade:hover {
+  font-size: 13px;
+  padding: 12px 52px;
+}
+
+.stripe-playlist ul li:hover {
+  color: white;
+}
+
+
+
+/* media query */
