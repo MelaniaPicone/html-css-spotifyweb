@@ -234,65 +234,35 @@ footer {
 
 
 footer .container {
-  width: 90%;
+  max-width: 100%;
   margin: 0 auto;
 }
-
-.col-25 {
-  width: 20%;
-  line-height: 12px;
-}
-
-.col-50 {
-  width: 49%;
-  display: flex;
-  position: relative;
-  justify-content: center;
-}
-
-
-.col-25 img {
-  width: 15%;
-  float: left;
-  margin-right: 10px;
-}
-
-.col-25 .music-title {
-  font-size: 10px;
-}
-
-.col-25 h5,
-span {
-  margin-top: 5px;
-}
-
-.col-25 .icons {
-  margin-left: 50px;
-}
-
-.col-50 .player-icons {
-  width: 30%;
-}
-
-.player-icons {
-  position: absolute;
-  top: 35px;
-}
-
 
 i {
   letter-spacing: 20px;
 }
 
+.col-music {
+  width: 25%;
+  background-color: chartreuse;
+}
 
-.col-25b {
+.col-center-music {
+  width: 50%;
+  background-color: brown;
+}
+
+
+
+
+.col-mus {
   display: flex;
   margin-left: 160px;
 }
 
 /* audio player */
 
-
+/*  
 .player-controller-time {
   width: 70%;
   display: flex;
@@ -337,7 +307,7 @@ i {
 
 .player-controller-time:hover .controller-point {
   display: block;
-}
+}*/
 
 
 /* volume player */
