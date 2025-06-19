@@ -232,11 +232,15 @@ footer {
   margin: 0 auto;
 }
 
-
-footer .container {
+.container-footer {
   max-width: 100%;
   margin: 0 auto;
 }
+
+.row-footer {
+  display: flex;
+}
+
 
 i {
   letter-spacing: 20px;
@@ -247,22 +251,19 @@ i {
   background-color: chartreuse;
 }
 
+.col-music img {
+  width: 15%;
+}
+
 .col-center-music {
   width: 50%;
   background-color: brown;
 }
 
 
-
-
-.col-mus {
-  display: flex;
-  margin-left: 160px;
-}
-
 /* audio player */
 
-/*  
+
 .player-controller-time {
   width: 70%;
   display: flex;
@@ -307,7 +308,7 @@ i {
 
 .player-controller-time:hover .controller-point {
   display: block;
-}*/
+}
 
 
 /* volume player */
