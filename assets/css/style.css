@@ -218,7 +218,7 @@ h2 {
 }
 
 .col-30 {
-  width: calc(90% / 6);
+  width: calc(92% / 6);
   padding-bottom: 20px;
 }
 
@@ -258,7 +258,7 @@ h2 {
 }
 
 .card {
-  height: 148px;
+  height: 183px;
   position: relative;
   object-fit: cover;
 }
@@ -294,6 +294,8 @@ footer {
   display: flex;
   margin: 0 auto;
   padding-top: 20px;
+  z-index: 1;
+  position: fixed;
 }
 
 .container-footer {
@@ -393,9 +395,7 @@ footer i {
   background-color: green;
 }
 
-.player-controller-time:hover .controller-point {
-  display: block;
-}
+
 
 
 /* volume player */
@@ -501,7 +501,7 @@ footer i {
   }
 
   .card {
-    height: 108px;
+    height: 123px;
   }
 
   footer i {
@@ -513,6 +513,13 @@ footer i {
   .col-music img {
     width: 15%;
   }
+
+  .icons {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+gap: 10px;
+}
 
   .col-music {
     width: 35%;
@@ -536,6 +543,58 @@ footer i {
     width: 20%;
     margin-left: 20px;
   }
+
+  .player-time {
+    font-size: 11px;
+  }
+
+  .controller-point {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .col-30 {
+    width: calc(92% / 2);
+  }
+
+  .stripe-playlist ul li {
+    font-size: 11px;
+    margin-inline: 9px;
+  }
+
+
+  .album {
+    margin-top: 10px;
+  }
+
+  .card {
+    height: 164px;
+  }
+
+  .col-music img {
+    width: 15%;
+  }
+
+  .col-music {
+    width: 38%;
+  }
+
+  .col-center-music {
+    width: 24%;
+  }
+
+  .player-time {
+    font-size: 9px;
+  }
+
+  .col-music {
+    padding: 0px;
+  }
+
+
 
 
 
