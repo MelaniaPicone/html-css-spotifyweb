@@ -8,8 +8,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 main {
   height: calc(100vh - 100px);
   background-color: #141922;
@@ -31,7 +29,6 @@ ul li {
   overflow-y: auto;
   color: white;
 }
-
 
 
 /* sidebar */
@@ -70,8 +67,6 @@ h2 {
   font-size: 13px;
 }
 
-
-
 .add {
   vertical-align: middle;
   font-size: 30px;
@@ -108,10 +103,6 @@ h2 {
   width: 10%;
 }
 
-.account img {
-  width: 10%;
-}
-
 .download img {
   vertical-align: middle;
 }
@@ -132,14 +123,6 @@ h2 {
   border-bottom: 1px solid #a3a3a3;
   padding-bottom: 10px;
   margin-top: 10px;
-}
-
-.account img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: grey;
-  vertical-align: middle;
 }
 
 .account b {
@@ -312,7 +295,6 @@ footer i {
 
 .icons {
   margin-left: 50px;
-
 }
 
 .col-music {
@@ -396,8 +378,6 @@ footer i {
 }
 
 
-
-
 /* volume player */
 
 .volume-player {
@@ -421,9 +401,7 @@ footer i {
 }
 
 
-
 /* hover */
-
 
 .upgrade:hover {
   font-size: 13px;
@@ -567,7 +545,6 @@ footer i {
     margin-inline: 9px;
   }
 
-
   .album {
     margin-top: 10px;
   }
@@ -596,7 +573,6 @@ footer i {
     padding: 0px;
   }
 
-
 }
 
 /* extra small */
@@ -605,7 +581,6 @@ footer i {
 
   #sidebar {
     width: 60px;
-    
   }
 
   #content {
@@ -639,7 +614,6 @@ footer i {
 
   .sidebar-down {
     margin-top: 50px;
-
   }
 
   .download,
@@ -653,9 +627,10 @@ footer i {
     margin-top: 10px;
   }
 
-.col-30 {
+  .col-30 {
     width: calc(90% / 2);
   }
+
   .card {
     height: 220px;
   }
